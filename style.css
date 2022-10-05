@@ -1,16 +1,23 @@
-.body {
-    min-height: 100vh;
+ body {
+    height: 100vh;
     margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .hero-section {
-    background-color: #1F2937; 
+    background-color: #1F2937;
+    height: 480px; 
 }
 
 .header {
     display:flex;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 30px;
 }
 
 .links ul {
@@ -23,16 +30,23 @@
 .links ul li a {
     text-decoration: none;
     color: inherit;
+    transition-duration: 0.4s;
+}
+
+.links ul li a:hover {
+    text-decoration: underline;
+     color: bisque;
 }
 
 .links ul li {
     list-style-type: none;
 }
 
-.hero-text h1 {
+.hero-text h1{
     font-size: 48px;
-    font-weight: bolder;
-    color: #F9FAF8;   
+    font-weight: 900;
+    color: #F9FAF8; 
+    margin-bottom: -5px;  
 }
 
 .hero-text p , .links {
@@ -40,7 +54,44 @@
     color: #E5E7EB;
 }
 
+.hero-text {
+    margin-left: 109px;
+}
+
 .logo {
     font-size: 20px;
     color: #F9FAF8;
+}
+
+.text-and-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    width: 150px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    color: #3882F6;
+    background-color: white;
+}
+
+.text-and-img img {
+    margin-top: 65px;
+    width: 390px;
+    margin-right: 105.5px;
+    border-radius: 10px;
 }
