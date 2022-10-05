@@ -1,7 +1,6 @@
  body {
     height: 100vh;
     margin: 0;
-    overflow: hidden;
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
@@ -10,7 +9,7 @@
 
 .hero-section {
     background-color: #1F2937;
-    height: 480px; 
+    min-height: 480px; 
 }
 
 .header {
@@ -94,4 +93,41 @@ button:hover {
     width: 390px;
     margin-right: 105.5px;
     border-radius: 10px;
+}
+
+.info-title {
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+}
+
+.info-title p {
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: auto;
+    padding-top: 65px;
+}
+
+.img-container {
+    display:flex;
+    justify-content: center;
+    gap: 82px;
+}
+
+.image img {
+    width: 230px;
+    height:230px;
+    border: solid 5px #3882F6;
+    border-radius: 12px;
+    
+}
+
+.text {
+    text-align: center;
+    margin-left: 40px;
+}
+
+.image {
+    max-width: 200px;
+    
 }
