@@ -1,0 +1,46 @@
+.body {
+    min-height: 100vh;
+    margin: 0;
+}
+
+.hero-section {
+    background-color: #1F2937; 
+}
+
+.header {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.links ul {
+    display: flex;
+    gap: 16px;
+    padding: 0;
+    padding-top: 5px;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.links ul li {
+    list-style-type: none;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;   
+}
+
+.hero-text p , .links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 20px;
+    color: #F9FAF8;
+}
