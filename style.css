@@ -210,3 +210,13 @@ button:hover {
 .cta-text {
     color: #F9FAF8;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 26px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    
+}
