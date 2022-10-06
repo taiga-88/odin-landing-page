@@ -165,3 +165,48 @@ button:hover {
     font-family: 'Noto Serif JP', serif;
 
 }
+
+.cta-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.cta-container {
+    background-color: #3882F6;
+    border-radius: 7px;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-button {
+    border: #F9FAF8 solid 2px;
+    align-self: center;  
+    padding: 10px ;
+    padding-left: 1px;
+    padding-right: 1px; 
+}
+
+.cta-text-container {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    width: 450px;
+    align-self: center;
+    justify-content: flex-end;
+    margin-right: 90px;
+}
+
+.cta-title {
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 3px;
+}
+
+.cta-text {
+    color: #F9FAF8;
+}
