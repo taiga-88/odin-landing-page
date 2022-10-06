@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300&family=Roboto:ital,wght@0,400;1,300&display=swap');
+
  body {
     height: 100vh;
     margin: 0;
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -95,6 +97,10 @@ button:hover {
     border-radius: 10px;
 }
 
+.info-section {
+    margin-bottom: 60px;
+}
+
 .info-title {
     display: flex;
     justify-content: center;
@@ -119,7 +125,7 @@ button:hover {
     height:230px;
     border: solid 5px #3882F6;
     border-radius: 12px;
-    
+    margin-bottom: 5px;
 }
 
 .text {
@@ -130,4 +136,32 @@ button:hover {
 .image {
     max-width: 200px;
     
+}
+
+.quote-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 100px;
+    padding-top: 130px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    width: 1045px;
+    margin-bottom: 40px;
+    font-family: 'Noto Serif JP', serif;
+
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 900;
+    padding-left: 67%;
+    font-family: 'Noto Serif JP', serif;
+
 }
